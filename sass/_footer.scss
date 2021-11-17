@@ -268,4 +268,14 @@
       padding: 0;
     }
   }
+
+  @media screen and (max-width: 767px) and (min-width: 600px) {
+    &-address {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      text-align: center;
+      justify-content: center;
+    }
+  }
 }

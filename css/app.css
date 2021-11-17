@@ -1081,5 +1081,14 @@ body {
     padding: 0;
   }
 }
+@media screen and (max-width: 767px) and (min-width: 600px) {
+  .footer-address {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+  }
+}
 
 /*# sourceMappingURL=app.css.map */
