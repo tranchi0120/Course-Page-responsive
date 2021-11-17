@@ -539,6 +539,27 @@ body {
     margin-left: 30px;
   }
 }
+@media screen and (max-width: 767px) and (min-width: 600px) {
+  .grid-total {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  .grid-right {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .grid-left {
+    width: 320px;
+  }
+  .grid-future {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+}
 
 .sourse-list {
   width: 928px;
